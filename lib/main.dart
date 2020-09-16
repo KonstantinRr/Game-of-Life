@@ -25,6 +25,8 @@ class GameOfLife extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
       onGenerateRoute: onGenerateRoute,
     );
   }
