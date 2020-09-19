@@ -23,6 +23,7 @@
 import 'package:flutter/material.dart';
 import 'package:game_of_life/page_404.dart';
 import 'package:game_of_life/page_home.dart';
+import 'package:game_of_life/state.dart';
 import 'package:provider/provider.dart';
 
 void main() {
